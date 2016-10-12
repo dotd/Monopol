@@ -7,6 +7,8 @@ public class Board {
 
     List<Cell> cells = null;
 
+    
+    
     public Board() {
         cells = new ArrayList<Cell>();
         //---------------------------------------------------------------------------------------------------------
@@ -83,6 +85,10 @@ public class Board {
         cells.add(new Cell("idx=38, type=Luxury Tax, moneyChange=-100"));
         cells.add(new Cell("idx=39, cost=400, type=Street, canBeOwned=true, name=Boardwalk, color=Dark Blue,"
                         + "rent=50, 1_house=200, 2_houses=600, 3_houses=1400, 4_houses=1700, 1_hotel=2000, mortage=200, house_price=200, hotel_price=1000"));
+    }
+    
+    public void initBoard() {
+        
     }
 
 }
